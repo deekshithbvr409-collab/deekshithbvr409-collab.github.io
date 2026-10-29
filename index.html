@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Deekshith's portfolio — MCA student interested in software development, AI, and cloud computing.">
+  <title>Deekshith | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">Deekshith<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">MCA STUDENT · ASPIRING SOFTWARE DEVELOPER</p>
+        <h1>Hello, I'm <span>Deekshith.</span></h1>
+        <p class="intro">I am an MCA student who enjoys learning new technologies and building practical projects. I am interested in software development, web technologies, AI, and cloud computing.</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore my work</a>
+          <a class="button secondary" href="resume.pdf" target="_blank" rel="noopener">View resume ↗</a>
+          <a class="button secondary" href="resume.pdf" download>Download resume ↓</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/deekshithbvr409-collab" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="#contact">Contact me ↘</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-glow"></div>
+        <img class="portrait" src="profile.jpg" alt="Portrait of Deekshith">
+        <div class="photo-caption"><span class="status-dot"></span> Open to learning and opportunities</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Learning today. Building for tomorrow.</h2>
+      <p>I’m currently pursuing a Master of Computer Applications (MCA). I’m developing my technical skills through coursework, certifications, and hands-on projects. I value continuous learning, problem-solving, and creating useful digital experiences.</p>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2>Skills & interests</h2>
+      <div class="chip-list">
+        <span>Java</span><span>Python</span><span>HTML</span><span>CSS</span>
+        <span>SQL</span><span>Web Development</span><span>Cloud Computing</span><span>AI & NLP</span>
+      </div>
+      <p class="small-note">Edit this list to include only the skills and technologies you can confidently discuss in an interview.</p>
+    </section>
+
+    <section class="section" id="certifications">
+      <p class="eyebrow">CONTINUOUS LEARNING</p>
+      <h2>Certifications</h2>
+      <div class="card-grid">
+        <article class="info-card"><span class="card-number">01</span><h3>Cloud Computing</h3><p>NPTEL</p></article>
+        <article class="info-card"><span class="card-number">02</span><h3>Natural Language Processing</h3><p>NPTEL</p></article>
+        <article class="info-card"><span class="card-number">03</span><h3>Full Stack Development</h3><p>Evolvetech</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2>Projects</h2>
+      <div class="project-placeholder">
+        <div class="project-icon">&lt;/&gt;</div>
+        <div><h3>Your projects go here</h3><p>Add your best academic or personal projects, a short description, technologies used, and links to their GitHub repositories or live demos.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have an opportunity or idea?</h2>
+      <p>Feel free to connect with me on GitHub. Add your professional email and LinkedIn profile below before publishing.</p>
+      <div class="actions">
+        <a class="button primary" href="https://github.com/deekshithbvr409-collab" target="_blank" rel="noopener">Visit my GitHub ↗</a>
+        <!-- Replace the email placeholder with your professional email address. -->
+        <a class="button secondary" href="mailto:your.email@example.com">Email me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Deekshith</span><span>Built with HTML & CSS · Hosted on GitHub Pages</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
